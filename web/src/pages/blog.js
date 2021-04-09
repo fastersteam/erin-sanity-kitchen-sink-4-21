@@ -72,7 +72,7 @@ const IndexPage = props => {
         keywords={site.keywords || []}
       />
       <Container>
-        <h1 hidden>Welcome to {site.title}</h1>
+        <h1 hidden>Enter Erin Jerri's Reality</h1>
         <div className="py-6">{postNodes && <BlogPostPreviewList nodes={postNodes} />}</div>
       </Container>
     </Layout>
